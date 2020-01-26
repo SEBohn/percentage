@@ -5,7 +5,11 @@ using namespace std;
 int main() {
 
 // variables for monthly pay and the contribution.
-double monthlyPay = 6000.0, contribution;
+double monthlyPay;
+double contribution;
+
+cout << "Please enter your monthly pay: ";
+cin >> monthlyPay;
 
 //calculation and display of the 5% contribution.
 contribution = monthlyPay * 0.05;
